@@ -2,7 +2,7 @@
 Luca Gomes Urssi 10425396
 Luiz Fernando S. E. Santos 10892680
 
-We circumvented the access restriction by pre-loading a library(libfakeID) which contains the function "authorize", by doing so the the new function returns access after any login input. To find which library to pre-load we used the command "objdump -d" on both docrypt and libauth.so, which showed us the mentioned library. 
+We circumvented the access restriction by pre-loading a library(libfakeID) which contains the function "authorize", by doing so the new function returns access after any login input. To find which library to pre-load we used the command "objdump -d" on both docrypt and libauth.so, which showed us the mentioned library. 
 To get the encryption key we used "objdump -D" on encrypt finding that the key was a read only element, knowing that we listed all strings from the encrypt binary and found the line which most probably was the key, after testing we made it show o console.
 
 Making the authorize function an internal part of docrypt.
