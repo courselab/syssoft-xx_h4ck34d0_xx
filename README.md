@@ -5,4 +5,4 @@
 # Autores
   
 - Luiz Fernando S. E. Santos, 10892680
-- Luca XXXX, XXXXX
+- Luca Gomes Urssi, 10425396
